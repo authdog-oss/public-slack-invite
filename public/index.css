@@ -1,4 +1,4 @@
-* { 
+* {
   box-sizing: border-box;
 }
 
@@ -8,13 +8,17 @@ html, body {
 
 body {
   display: flex;
-  background-image: url(https://fauna.com/assets/site/heroes/Fauna_website_HOME_hero_v2_opt.jpg);
+  background-image: linear-gradient(to right bottom, #1507e7DD, #2b1dedDD, #3b2cf3DD, #4738fDD9, #5344ffDD), url(bg.jpg);
   background-size: cover;
   height: 100%;
   font-family: sans-serif;
   flex-direction: column;
   justify-content: space-between;
   font-family: acumin-pro, Helvetica, sans-serif;
+}
+
+img.logo:hover {
+  filter: invert(100%);
 }
 
 h1 {
@@ -68,17 +72,25 @@ input[type="email"] {
 }
 
 input[type="submit"] {
-  background: #01e399;
-  color: #3642ce;
+  background: #1507e7DD;
+  color: white !important;
   text-transform: uppercase;
   font-size: 13px;
   line-height: 16px;
   font-weight: 600;
   letter-spacing: 1px;
   padding: 12px 20px;
+  cursor: pointer !important;
+  border: solid 2px white !important;
+  border-left: none !important;
+}
+
+input[type="submit"]:hover {
+  background: black;
 }
 
 section {
+  border: solid 4px white;
   background: #2a35c5;
   background: rgb(255,255,255);
   background: linear-gradient(167deg, rgb(71, 55, 202) 24%, rgba(42,53,197,1) 100%, rgba(255,255,255,1) 100%);
@@ -119,12 +131,10 @@ footer {
 }
 
 #flash {
- background: #090c39;
+ background: linear-gradient(to right bottom, #1507e7DD, #2b1dedDD, #3b2cf3DD, #4738fDD9, #5344ffDD);
  padding: 5%;
  width: 100%;
  text-align: center;
 }
 
 .editable p { text-align:center; }
-
-

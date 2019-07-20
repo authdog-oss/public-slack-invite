@@ -1,42 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang='en'>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta charset='UTF-8' />
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta http-equiv='X-UA-Compatible' content='ie=edge' />
     <title>Join Fauna's Community Slack</title>
-    <link rel="stylesheet" href="https://use.typekit.net/gep4mwn.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="index.css" />
-    <script type="text/javascript" src="/script.js"></script>
+    <link rel='stylesheet' href='https://use.typekit.net/gep4mwn.css'>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css' rel='stylesheet' />
+    <link rel='stylesheet' type='text/css' href='index.css' />
+    <script type='text/javascript' src='script.js'></script>
   </head>
 
-  <body class="non-gated">
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <header class="logo-header">
-      <a href="http://www.fauna.com" class="scrollto">
-        <img title="FaunaDB Logo" src="https://fauna.com/assets/pardot/img/Fauna_logo_white_web.png">
+  <body class='non-gated'>
+    <header class='logo-header'>
+      <a href='https://www.authdog.com' class='scrollto'>
+        <img class='logo' title='Authdog Logo' src='logo.png'>
       </a>
     </header>
     <main>
       <section>
-        <div id="flash-wrapper"></div>
-        <div class="form-wrapper">
-          <div class="editable title">
-            <h1>Join Fauna's Community Slack</h1>
+        <div id='flash-wrapper'></div>
+        <div class='form-wrapper'>
+          <div class='editable title'>
+            <h1>Join us on Slack !</h1>
           </div>
-            <form class="form" method="post" action="/.netlify/functions/request-slack-invite">
-              <input name="email" type="email" placeholder="enter e-mail" />
-              <input type="submit" value="Join" />
+            <form class='form' method='post' action='/.netlify/functions/request-slack-invite'>
+              <input name='email' type='email' placeholder='Enter your email' />
+              <input type='submit' value='Join' />
             </form>
             <p>
-              If you are already a member, <a href="https://fauna-community.slack.com/">click here to sign in.</a>
+              If you are already a member, <a href='https://authdog.slack.com/'>click here to sign in.</a>
             </p>
         </div>
       </section>
     </main>
-    <footer>
-      <p><a href="https://github.com/fauna/public-slack-invite">Fork this code</a>&nbsp;(and deploy on Netlify) to invite people to your own Slack.</p>
-    </footer>
+    <br />
   </body>
 </html>
