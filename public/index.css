@@ -8,7 +8,7 @@ html, body {
 
 body {
   display: flex;
-  background-image: linear-gradient(to right bottom, #1507e7DD, #2b1dedDD, #3b2cf3DD, #4738fDD9, #5344ffDD), url(bg.jpg);
+  background-image: linear-gradient(to bottom, black , #5344ffDD), url(bg.jpg);
   background-size: cover;
   height: 100%;
   font-family: sans-serif;
@@ -34,7 +34,6 @@ h1 {
 
 a {
   color: #01e399;
-  cursor: pointer !important;
 }
 
 header, main, footer {
@@ -132,7 +131,7 @@ footer {
 }
 
 #flash {
- background: linear-gradient(to bottom, black, #5344ffDD);
+ background: linear-gradient(to right bottom, #1507e7DD, #2b1dedDD, #3b2cf3DD, #4738fDD9, #5344ffDD);
  padding: 5%;
  width: 100%;
  text-align: center;
