@@ -132,7 +132,7 @@ footer {
 }
 
 #flash {
- background: linear-gradient(to right bottom, #1507e7DD, #2b1dedDD, #3b2cf3DD, #4738fDD9, #5344ffDD);
+ background: linear-gradient(to bottom, black, #5344ffDD);
  padding: 5%;
  width: 100%;
  text-align: center;
